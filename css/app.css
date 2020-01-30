@@ -1,0 +1,71 @@
+:root{
+    --red-color:#CB3B5D;
+    --blue-color:#3B9FCB;
+    --red-color-hover:#ad324e;
+    --blue-color-hover:#348aaf;
+}
+body,html{
+    padding: 0;
+    margin: 0;
+}
+body{
+     background:#1E1E26;
+    /* background: #E6E6E6; */
+}
+.app-top{
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+    background:#1E1E26;
+    text-align: center;
+}
+.ghost-button{
+    width: 200px;
+    text-align: center;
+    padding: 12px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.app-circle{
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    background-image: url('../image/worker.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 400px;
+    left: 50%;
+    margin-left: -200px;
+    opacity: .2;
+    display: inline-block;
+    border: solid 2px #1E1E26;
+    position: absolute;
+}
+#over-images{
+    margin-top: 100px;
+    z-index: 99;
+    display: inline-block;
+}
+.button-content{
+    margin-top: 150px;
+}
+.ghost-button.red{
+    color:var(--red-color);
+    border:solid 2px var(--red-color);
+}
+.ghost-button.blue{
+    color:var(--blue-color);
+    border:solid 2px var(--blue-color);
+}
+.ghost-button.red:hover{
+    color:var(--red-color-hover);
+    border:solid 2px var(--red-color-hover);
+}
+.ghost-button.blue:hover{
+    color:var(--blue-color-hover);
+    border:solid 2px var(--blue-color-hover);
+}
